@@ -16,19 +16,19 @@
       },
       {
         "src": "/products/(.*)",
-        "dest": "../index.js"
+        "dest": "index.js"
       },
       {
         "src": "/add",
-        "dest": "/index.html"
+        "dest": "dist/index.html"
       },
       {
         "src": "/",
-        "dest": "/index.html"
+        "dest": "dist/index.html"
       },
       {
         "src": "/(.+)",
-        "dest": "/$1"
+        "dest": "dist/$1"
       }
     ]
   }
