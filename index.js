@@ -19,12 +19,9 @@ app.use(express.json());
 app.use("*",(req,res)=>{
   res.sendFile(path.resolve(__dirname,process.env.PUBLIC_DIR));
 })
-app.use("/products",productRouter);
+app.use("/",productRouter);
 app.use("/users",userRouter);
-app.get("/",(req,res)=>{
-    res.send("hello");
-    res.sendStatus(201);
-});
+
 
 
 
