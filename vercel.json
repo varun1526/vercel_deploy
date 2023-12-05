@@ -29,6 +29,10 @@
       {
         "src": "/(.+)",
         "dest": "dist/$1"
+      },
+      {
+        "src":"/api/products/.*",
+        "dest":"dist/../index.js"
       }
     ]
   }

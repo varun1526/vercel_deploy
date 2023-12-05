@@ -24,7 +24,6 @@ app.use("/users",userRouter);
 
 
 
-
 app.listen(process.env.PORT,(req,res)=>{
     console.log("app listening on port number " + 27017);
 });
